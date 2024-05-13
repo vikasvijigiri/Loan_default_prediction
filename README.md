@@ -10,6 +10,10 @@ This project aims to predict loan defaults using machine learning techniques. Th
 - **Modeling:** Utilizes various machine learning algorithms such as [list algorithms you used, e.g., ADABoost, Random Forest, KNN, etc.] for loan default prediction.
 - **Evaluation:** Evaluates model performance using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
 - **Visualization:** Provides visualizations of loan data distribution, model performance metrics, and feature importance.
+- **Outliers:** Uses BoxPlot and the standard deviation technique of `mean +- 2*(std)` for filtering out outliers.
+- **SMOTE:** Used this technique for oversampling the minority data synthetically since the dataset is class imbalanced.
+- **Hypertuning:** Performed this in best performing algorithm obtained from the forward selection technique.
+- **MonteCarlo:** Used this MonteCarlo way of replacing the NaN in the dataset for accurate predictions.
 
 ## Usage
 
